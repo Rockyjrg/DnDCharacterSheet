@@ -18,8 +18,8 @@ public class Statistics {
 
     //Constructors
     public Statistics(
-            int str, int con, int dex,
-            int chr, int itl, int wis)
+            int str, int dex, int con,
+            int itl, int wis, int chr)
     {
 
         this.str = str; this.con = con; this.dex = dex;
