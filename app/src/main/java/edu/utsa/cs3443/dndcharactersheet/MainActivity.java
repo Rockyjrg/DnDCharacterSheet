@@ -56,6 +56,4 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public static class StatsEditActivity {
-    }
 }
