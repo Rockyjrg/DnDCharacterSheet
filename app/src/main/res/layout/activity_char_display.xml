@@ -50,7 +50,7 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName" />
+                            android:text="StatName1" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -124,7 +124,7 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName" />
+                            android:text="StatName4" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -140,12 +140,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName5"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName2" />
+                            android:text="StatName5" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -161,12 +162,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName6"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName3" />
+                            android:text="StatName6" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -189,12 +191,13 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/statName7"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName" />
+                            android:text="StatName7" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -210,12 +213,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName8"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName2" />
+                            android:text="StatName8" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -231,12 +235,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName9"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName3" />
+                            android:text="StatName9" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -259,12 +264,13 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/statName10"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName" />
+                            android:text="StatName10" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -280,12 +286,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName11"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName2" />
+                            android:text="StatName11" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -301,12 +308,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName12"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName3" />
+                            android:text="StatName12" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -329,12 +337,13 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/statName13"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName" />
+                            android:text="StatName13" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -350,12 +359,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName14"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName2" />
+                            android:text="StatName14" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -371,12 +381,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName15"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName3" />
+                            android:text="StatName15" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -399,12 +410,13 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/statName16"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName" />
+                            android:text="StatName16" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -420,12 +432,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName17"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName2" />
+                            android:text="StatName17" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -441,12 +454,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName18"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName3" />
+                            android:text="StatName18" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -469,12 +483,13 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/statName19"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName" />
+                            android:text="StatName19" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -490,12 +505,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName20"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName2" />
+                            android:text="StatName20" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -511,12 +527,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName21"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName3" />
+                            android:text="StatName21" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -539,12 +556,13 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/statName22"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName" />
+                            android:text="StatName22" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -560,12 +578,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName23"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName2" />
+                            android:text="StatName23" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -581,12 +600,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName24"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName3" />
+                            android:text="StatName24" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -609,12 +629,13 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/statName25"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName" />
+                            android:text="StatName25" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -630,12 +651,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName26"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName2" />
+                            android:text="StatName26" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -651,12 +673,13 @@
                             android:layout_weight="1" />
 
                         <TextView
+                            android:id="@+id/statName27"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName3" />
+                            android:text="StatName27" />
 
                         <TextView
                             android:layout_width="35dp"
