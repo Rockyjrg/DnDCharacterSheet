@@ -1,19 +1,13 @@
 package edu.utsa.cs3443.dndcharactersheet;
 
-
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+public class CharDisplayActivity extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity {
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-
-    public static class StatsEditActivity {
+        setContentView(R.layout.activity_char_display);
     }
 }
