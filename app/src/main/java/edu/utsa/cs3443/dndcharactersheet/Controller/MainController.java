@@ -22,7 +22,7 @@ public class MainController implements View.OnClickListener {
     @Override
     public void onClick(View view) {
 
-        if(view.getId() == R.id.Class1 || view.getId() == R.id.Class2 | view.getId() == R.id.Class3 || view.getId() == R.id.Class4 ) {
+        if(view.getId() == R.id.Class2 | view.getId() == R.id.Class3 || view.getId() == R.id.Class4 ) {
             Intent intent = new Intent(activity, CharDisplayActivity.class);
             activity.startActivity(intent);
         } else if(view.getId() == R.id.editClass1 || view.getId() == R.id.editClass2 || view.getId() == R.id.editClass3) {

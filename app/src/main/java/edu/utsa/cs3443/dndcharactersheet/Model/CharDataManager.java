@@ -1,4 +1,4 @@
-package edu.utsa.cs3443.dndcharactersheet.Controller;
+package edu.utsa.cs3443.dndcharactersheet.Model;
 
 import android.app.Activity;
 import android.content.res.AssetManager;
