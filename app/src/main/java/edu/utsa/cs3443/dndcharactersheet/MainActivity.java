@@ -18,37 +18,41 @@ public class MainActivity extends AppCompatActivity {
 
         MainController controller1 = new MainController(this);
 
-        Button edit1 = findViewById(R.id.editButton);
-        edit1.setOnClickListener(controller1);
+        Button class1 = findViewById(R.id.Class1);
+        class1.setOnClickListener(controller1);
 
-        Button delete1 = findViewById(R.id.deleteButton);
+        Button editClass1 = findViewById(R.id.editClass1);
+        editClass1.setOnClickListener(controller1);
+
+        Button delete1 = findViewById(R.id.deleteClass1);
         delete1.setOnClickListener(controller1);
 
-        Button edit2 = findViewById(R.id.editButton2);
-        edit2.setOnClickListener(controller1);
+        Button class2 = findViewById(R.id.Class2);
+        class2.setOnClickListener(controller1);
 
-        Button delete2 = findViewById(R.id.deleteButton2);
+        Button editClass2 = findViewById(R.id.editClass2);
+        editClass2.setOnClickListener(controller1);
+
+        Button delete2 = findViewById(R.id.deleteClass2);
         delete2.setOnClickListener(controller1);
 
-        Button edit3 = findViewById(R.id.editButton3);
-        edit3.setOnClickListener(controller1);
+        Button class3 = findViewById(R.id.Class3);
+        class3.setOnClickListener(controller1);
 
-        Button delete3 = findViewById(R.id.deleteButton3);
+        Button editClass3 = findViewById(R.id.editClass3);
+        editClass3.setOnClickListener(controller1);
+
+        Button delete3 = findViewById(R.id.deleteClass3);
         delete3.setOnClickListener(controller1);
 
-        Button edit4 = findViewById(R.id.editButton4);
-        edit4.setOnClickListener(controller1);
+        Button class4 = findViewById(R.id.Class4);
+        class4.setOnClickListener(controller1);
 
-        Button delete4 = findViewById(R.id.deleteButton4);
+        Button editClass4 = findViewById(R.id.editClass4);
+        editClass4.setOnClickListener(controller1);
+
+        Button delete4 = findViewById(R.id.deleteClass4);
         delete4.setOnClickListener(controller1);
-
-        Button edit5 = findViewById(R.id.editButton5);
-        edit5.setOnClickListener(controller1);
-
-        Button delete5 = findViewById(R.id.deleteButton5);
-        delete5.setOnClickListener(controller1);
-
-
 
     }
 
