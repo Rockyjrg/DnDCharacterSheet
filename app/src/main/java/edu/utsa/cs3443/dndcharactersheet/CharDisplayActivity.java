@@ -8,6 +8,6 @@ public class CharDisplayActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_char_display);
+        setContentView(R.layout.activity_char_base_stats_display);
     }
 }

@@ -8,7 +8,7 @@ public class StatsEditActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stats_edit);
+        setContentView(R.layout.activity_char_base_stats_edit);
     }
 
 }
