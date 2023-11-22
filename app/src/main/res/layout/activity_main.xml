@@ -35,14 +35,14 @@
                 android:layout_height="65dp"
                 android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/Class1"
-                    android:layout_width="250dp"
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="226dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:includeFontPadding="false"
-                    android:text="Whatever name lol"
-                    android:textAllCaps="false" />
+                    android:background="@color/normal"
+                    android:gravity="center"
+                    android:text="Whatever name lol" />
 
                 <Button
                     android:id="@+id/editClass1"
