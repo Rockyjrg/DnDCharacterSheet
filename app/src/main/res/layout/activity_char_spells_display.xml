@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/normal"
                 android:gravity="center"
-                android:text="That one's character Spells & Cantrips Sheet" />
+                android:text="That one's character Spells &amp; Cantrips Sheet" />
 
             <Space
                 android:layout_width="match_parent"
