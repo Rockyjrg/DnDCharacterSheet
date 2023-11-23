@@ -7,7 +7,7 @@ package edu.utsa.cs3443.dndcharactersheet.Model;
 public class Attributes {
     //Initializes the Name field, as well as the Armor Class and Speed statistics
     public String name, role;
-    public int ac; public int spd;
+    public int ac, spd;
     public int hp; public int initBonus;
 
     //------------------------------------------------------------------------------------------------------------
