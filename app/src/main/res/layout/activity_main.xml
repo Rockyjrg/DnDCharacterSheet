@@ -23,7 +23,7 @@
                 android:layout_height="37dp"
                 android:background="@color/normal"
                 android:gravity="center"
-                android:text="Ooga Booga DnD"
+                android:text="Team Ooga Booga: DnD Character Sheet"
                 android:textColor="#000000" />
 
             <Space
