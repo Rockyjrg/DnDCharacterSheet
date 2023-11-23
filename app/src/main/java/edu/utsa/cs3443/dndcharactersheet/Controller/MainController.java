@@ -25,6 +25,8 @@ public class MainController implements View.OnClickListener {
     public void onClick(View view) {
 
         int id = view.getId();
+
+
         if(id == R.id.Class1 || id == R.id.Class2 || id == R.id.Class3 || id == R.id.Class4) {
             Intent intent = new Intent(activity, CharDisplayActivity.class);
             activity.startActivity(intent);
