@@ -37,14 +37,14 @@
 
                 <Button
                     android:id="@+id/class1"
-                    android:layout_width="203dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="200dp"
+                    android:layout_height="65dp"
                     android:layout_weight="1"
                     android:text="Whatever name lol"
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/createClass1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -64,6 +64,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="#B2DD0000"
                     android:text="Delete" />
 
             </LinearLayout>
@@ -79,10 +80,18 @@
 
                 <Button
                     android:id="@+id/Class2"
-                    android:layout_width="250dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="200dp"
+                    android:layout_height="65dp"
                     android:layout_weight="1"
                     android:text="Whatever name lol"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/createClass2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="create"
                     android:textAllCaps="false" />
 
                 <Button
@@ -98,6 +107,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="#B2DD0000"
                     android:text="Delete" />
             </LinearLayout>
 
@@ -112,10 +122,18 @@
 
                 <Button
                     android:id="@+id/Class3"
-                    android:layout_width="250dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="200dp"
+                    android:layout_height="65dp"
                     android:layout_weight="1"
                     android:text="Whatever name lol"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/createClass3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="create"
                     android:textAllCaps="false" />
 
                 <Button
@@ -131,6 +149,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="#B2DD0000"
                     android:text="Delete" />
             </LinearLayout>
 
@@ -145,10 +164,18 @@
 
                 <Button
                     android:id="@+id/Class4"
-                    android:layout_width="250dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="200dp"
+                    android:layout_height="65dp"
                     android:layout_weight="1"
                     android:text="Whatever name lol"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/createClass4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="create"
                     android:textAllCaps="false" />
 
                 <Button
@@ -164,6 +191,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="#B2DD0000"
                     android:text="Delete" />
             </LinearLayout>
 
