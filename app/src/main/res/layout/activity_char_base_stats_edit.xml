@@ -52,12 +52,15 @@
                             android:gravity="center"
                             android:text="StatName1" />
 
-                        <TextView
+                        <EditText
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -69,17 +72,22 @@
                             android:id="@+id/statName2"
                             android:layout_width="90dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
                             android:text="StatName2" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText2"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -96,13 +104,18 @@
                             android:gravity="center"
                             android:text="StatName3" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText3"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
+
                     </LinearLayout>
 
                 </TableRow>
@@ -126,12 +139,16 @@
                             android:gravity="center"
                             android:text="StatName4" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText4"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -148,12 +165,16 @@
                             android:gravity="center"
                             android:text="StatName5" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText5"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -170,13 +191,18 @@
                             android:gravity="center"
                             android:text="StatName6" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText6"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
+
                     </LinearLayout>
                 </TableRow>
 
@@ -199,12 +225,16 @@
                             android:gravity="center"
                             android:text="StatName7" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText7"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -221,12 +251,16 @@
                             android:gravity="center"
                             android:text="StatName8" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText8"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -243,13 +277,18 @@
                             android:gravity="center"
                             android:text="StatName9" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText9"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
+
                     </LinearLayout>
                 </TableRow>
 
@@ -272,12 +311,16 @@
                             android:gravity="center"
                             android:text="StatName10" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText13"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -294,12 +337,16 @@
                             android:gravity="center"
                             android:text="StatName11" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText14"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -316,13 +363,18 @@
                             android:gravity="center"
                             android:text="StatName12" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText15"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
+
                     </LinearLayout>
                 </TableRow>
 
@@ -345,12 +397,16 @@
                             android:gravity="center"
                             android:text="StatName13" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText12"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -367,12 +423,16 @@
                             android:gravity="center"
                             android:text="StatName14" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText11"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -389,13 +449,18 @@
                             android:gravity="center"
                             android:text="StatName15" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText10"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
+
                     </LinearLayout>
                 </TableRow>
 
@@ -418,12 +483,16 @@
                             android:gravity="center"
                             android:text="StatName16" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText16"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -440,12 +509,16 @@
                             android:gravity="center"
                             android:text="StatName17" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText18"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -462,13 +535,18 @@
                             android:gravity="center"
                             android:text="StatName18" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText17"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
+
                     </LinearLayout>
                 </TableRow>
 
@@ -491,12 +569,16 @@
                             android:gravity="center"
                             android:text="StatName19" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText21"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -513,12 +595,16 @@
                             android:gravity="center"
                             android:text="StatName20" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText20"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -535,13 +621,18 @@
                             android:gravity="center"
                             android:text="StatName21" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText19"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
+
                     </LinearLayout>
                 </TableRow>
 
@@ -564,12 +655,16 @@
                             android:gravity="center"
                             android:text="StatName22" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText24"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -586,12 +681,16 @@
                             android:gravity="center"
                             android:text="StatName23" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText23"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -608,13 +707,18 @@
                             android:gravity="center"
                             android:text="StatName24" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText22"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
+
                     </LinearLayout>
                 </TableRow>
 
@@ -637,12 +741,16 @@
                             android:gravity="center"
                             android:text="StatName25" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText27"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -659,12 +767,16 @@
                             android:gravity="center"
                             android:text="StatName26" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText26"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
 
                         <Space
@@ -681,16 +793,22 @@
                             android:gravity="center"
                             android:text="StatName27" />
 
-                        <TextView
+                        <EditText
+                            android:id="@+id/editTextText25"
                             android:layout_width="35dp"
                             android:layout_height="50dp"
+                            android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
+                            android:ems="10"
                             android:gravity="center"
+                            android:inputType="text"
                             android:text="0" />
+
                     </LinearLayout>
                 </TableRow>
             </TableLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -698,7 +816,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/saveChanges"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -709,7 +827,7 @@
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/Spells"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -719,7 +837,7 @@
                     android:textAllCaps="false" />
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/weapons"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
