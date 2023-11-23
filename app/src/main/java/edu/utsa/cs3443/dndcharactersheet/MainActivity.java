@@ -66,6 +66,9 @@ public class MainActivity extends AppCompatActivity {
         Button deleteClass4 = findViewById(R.id.deleteClass4);
         deleteClass4.setOnClickListener(controller1);
 
+        Button credits = findViewById(R.id.credits);
+        credits.setOnClickListener(controller1);
+
 
 
     }

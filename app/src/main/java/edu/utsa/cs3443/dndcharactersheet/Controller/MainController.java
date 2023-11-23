@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.view.View;
+import android.widget.Toast;
 
 import edu.utsa.cs3443.dndcharactersheet.CharDisplayActivity;
 import edu.utsa.cs3443.dndcharactersheet.MainActivity;
@@ -38,6 +39,8 @@ public class MainController implements View.OnClickListener {
             activity.startActivity(intent);
         } else if (id == R.id.deleteClass1 || id == R.id.deleteClass2 || id == R.id.deleteClass3 || id == R.id.deleteClass4) {
             showDeleteConfirmation(id);
+        } else if(id == R.id.credits) {
+            Toast.makeText(activity, "Israel, Brandon, Jaime, Gael, Rudy", Toast.LENGTH_SHORT).show();
         }
 
 
