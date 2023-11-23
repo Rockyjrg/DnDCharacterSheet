@@ -40,7 +40,7 @@
                     android:layout_width="200dp"
                     android:layout_height="65dp"
                     android:layout_weight="1"
-                    android:text="Whatever name lol"
+                    android:text="Umbreon"
                     android:textAllCaps="false" />
 
                 <Button
@@ -83,7 +83,7 @@
                     android:layout_width="200dp"
                     android:layout_height="65dp"
                     android:layout_weight="1"
-                    android:text="Whatever name lol"
+                    android:text="Flame Thrower"
                     android:textAllCaps="false" />
 
                 <Button
@@ -125,7 +125,7 @@
                     android:layout_width="200dp"
                     android:layout_height="65dp"
                     android:layout_weight="1"
-                    android:text="Whatever name lol"
+                    android:text="Abomination"
                     android:textAllCaps="false" />
 
                 <Button
@@ -167,7 +167,7 @@
                     android:layout_width="200dp"
                     android:layout_height="65dp"
                     android:layout_weight="1"
-                    android:text="Whatever name lol"
+                    android:text="Grim"
                     android:textAllCaps="false" />
 
                 <Button
