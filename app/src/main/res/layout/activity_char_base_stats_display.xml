@@ -19,7 +19,7 @@
                 android:layout_height="31dp"
                 android:background="@color/normal"
                 android:gravity="center"
-                android:text="Someone's Class Name lol" />
+                android:text="Paladin" />
 
             <Space
                 android:layout_width="match_parent"
@@ -50,7 +50,7 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName1" />
+                            android:text="Strength" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -58,7 +58,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="14" />
 
                         <Space
                             android:layout_width="10dp"
@@ -72,7 +72,7 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName2" />
+                            android:text="Dexterity" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -80,7 +80,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="10" />
 
                         <Space
                             android:layout_width="10dp"
@@ -94,7 +94,7 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName3" />
+                            android:text="Constitution" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -102,7 +102,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="16" />
                     </LinearLayout>
 
                 </TableRow>
@@ -124,7 +124,7 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName4" />
+                            android:text="Intelligence" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -132,7 +132,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="10" />
 
                         <Space
                             android:layout_width="10dp"
@@ -146,7 +146,7 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName5" />
+                            android:text="Wisdom" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -154,7 +154,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="12" />
 
                         <Space
                             android:layout_width="10dp"
@@ -168,7 +168,7 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName6" />
+                            android:text="Charisma" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -176,7 +176,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="18" />
                     </LinearLayout>
                 </TableRow>
 
@@ -197,7 +197,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName7" />
+                            android:text="Acro(Dex)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -219,7 +220,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName8" />
+                            android:text="AniHandle(Wis)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -227,7 +229,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="1" />
 
                         <Space
                             android:layout_width="10dp"
@@ -241,7 +243,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName9" />
+                            android:text="Arcana(Int)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -270,7 +273,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName10" />
+                            android:text="Athletics(Str)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -278,7 +282,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="2" />
 
                         <Space
                             android:layout_width="10dp"
@@ -292,7 +296,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName11" />
+                            android:text="Deception(Cha)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -300,7 +305,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="4" />
 
                         <Space
                             android:layout_width="10dp"
@@ -314,7 +319,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName12" />
+                            android:text="History(Int)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -343,7 +349,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName13" />
+                            android:text="Insight(Wis)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -351,7 +358,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="4" />
 
                         <Space
                             android:layout_width="10dp"
@@ -365,7 +372,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName14" />
+                            android:text="Intmdtion(Cha)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -373,7 +381,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="7" />
 
                         <Space
                             android:layout_width="10dp"
@@ -387,7 +395,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName15" />
+                            android:text="Investigate(Int)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -395,7 +404,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="3" />
                     </LinearLayout>
                 </TableRow>
 
@@ -416,7 +425,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName16" />
+                            android:text="Medicine(Wis)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -424,7 +434,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="1" />
 
                         <Space
                             android:layout_width="10dp"
@@ -438,7 +448,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName17" />
+                            android:text="Nature(Wis)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -460,7 +471,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName18" />
+                            android:text="Perception(Cha)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -468,7 +480,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="1" />
                     </LinearLayout>
                 </TableRow>
 
@@ -489,7 +501,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName19" />
+                            android:text="Perfrmnce(Cha)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -497,7 +510,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="4" />
 
                         <Space
                             android:layout_width="10dp"
@@ -511,7 +524,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName20" />
+                            android:text="Persusion(Cha)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -519,7 +533,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="4" />
 
                         <Space
                             android:layout_width="10dp"
@@ -533,7 +547,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName21" />
+                            android:text="Religion(Int)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -541,7 +556,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="3" />
                     </LinearLayout>
                 </TableRow>
 
@@ -562,7 +577,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName22" />
+                            android:text="SleightofH(Dex)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -584,7 +600,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName23" />
+                            android:text="Stealth(Dex)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -606,7 +623,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName24" />
+                            android:text="Survival(Wis)"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -614,7 +632,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="1" />
                     </LinearLayout>
                 </TableRow>
 
@@ -635,7 +653,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName25" />
+                            android:text="Hit Points"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -643,7 +662,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="81" />
 
                         <Space
                             android:layout_width="10dp"
@@ -657,7 +676,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName26" />
+                            android:text="Armor Class"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -665,7 +685,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="18" />
 
                         <Space
                             android:layout_width="10dp"
@@ -679,7 +699,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="StatName27" />
+                            android:text="Speed"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -687,7 +708,7 @@
                             android:layout_weight="1"
                             android:background="@color/disable"
                             android:gravity="center"
-                            android:text="0" />
+                            android:text="30" />
                     </LinearLayout>
                 </TableRow>
             </TableLayout>
