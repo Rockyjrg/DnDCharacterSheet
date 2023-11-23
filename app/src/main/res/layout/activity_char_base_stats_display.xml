@@ -50,7 +50,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="Strength" />
+                            android:text="Strength"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -72,7 +73,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="Dexterity" />
+                            android:text="Dexterity"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -94,7 +96,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="Constitution" />
+                            android:text="Constitution"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -124,7 +127,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="Intelligence" />
+                            android:text="Intelligence"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -146,7 +150,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="Wisdom" />
+                            android:text="Wisdom"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="35dp"
@@ -168,7 +173,8 @@
                             android:layout_weight="1"
                             android:background="@color/normal"
                             android:gravity="center"
-                            android:text="Charisma" />
+                            android:text="Charisma"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="35dp"
