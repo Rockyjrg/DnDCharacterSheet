@@ -729,14 +729,14 @@
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Spells & Cantrips " />
+                    android:text="Spells and Cantrips " />
 
                 <Button
                     android:id="@+id/weapons"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Weapons, Attacks & Equipment " />
+                    android:text="Weapons, Attacks and Equipment " />
             </LinearLayout>
 
         </LinearLayout>
