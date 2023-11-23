@@ -12,7 +12,7 @@ import edu.utsa.cs3443.dndcharactersheet.Model.Character;
 import edu.utsa.cs3443.dndcharactersheet.Model.Statistics;
 
 public class CharDataManager {
-
+/**
     public Activity activity;
     public AssetManager assets;
 
@@ -108,5 +108,5 @@ public class CharDataManager {
         return true;
     }
 
-
+**/
 }
