@@ -297,7 +297,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="Wind wall" />
 
                             <TextView
                                 android:id="@+id/textView"
@@ -305,7 +305,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="Fog Cloud" />
 
                             <TextView
                                 android:id="@+id/textView2"
@@ -313,7 +313,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="Call Lightning" />
 
                             <TextView
                                 android:id="@+id/textView3"
@@ -321,7 +321,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="Fire Storm" />
 
                         </LinearLayout>
 
@@ -383,7 +383,7 @@
                                     android:layout_height="30dp"
                                     android:background="@color/disable"
                                     android:gravity="center|left"
-                                    android:text="Something lol" />
+                                    android:text="Blight" />
 
                                 <TextView
                                     android:id="@+id/textView"
@@ -391,7 +391,7 @@
                                     android:layout_height="30dp"
                                     android:background="@color/disable"
                                     android:gravity="center|left"
-                                    android:text="Something lol" />
+                                    android:text="Fire Storm" />
 
                                 <TextView
                                     android:id="@+id/textView2"
@@ -399,7 +399,7 @@
                                     android:layout_height="30dp"
                                     android:background="@color/disable"
                                     android:gravity="center|left"
-                                    android:text="Something lol" />
+                                    android:text="Animal Shapes" />
 
                                 <TextView
                                     android:id="@+id/textView4"
@@ -407,7 +407,7 @@
                                     android:layout_height="30dp"
                                     android:background="@color/disable"
                                     android:gravity="center|left"
-                                    android:text="Something lol" />
+                                    android:text="Dust Devil" />
 
                             </LinearLayout>
 
@@ -450,7 +450,7 @@
                                     android:layout_height="30dp"
                                     android:background="@color/disable"
                                     android:gravity="center|left"
-                                    android:text="Something lol" />
+                                    android:text="Wall of Fire" />
 
                                 <TextView
                                     android:id="@+id/textView"
@@ -458,7 +458,7 @@
                                     android:layout_height="30dp"
                                     android:background="@color/disable"
                                     android:gravity="center|left"
-                                    android:text="Something lol" />
+                                    android:text="Antilife Shell" />
 
                                 <TextView
                                     android:id="@+id/textView2"
@@ -466,7 +466,7 @@
                                     android:layout_height="30dp"
                                     android:background="@color/disable"
                                     android:gravity="center|left"
-                                    android:text="Something lol" />
+                                    android:text="Move Earth" />
 
                                 <TextView
                                     android:id="@+id/textView3"
@@ -474,7 +474,7 @@
                                     android:layout_height="30dp"
                                     android:background="@color/disable"
                                     android:gravity="center|left"
-                                    android:text="Something lol" />
+                                    android:text="Control Water" />
 
                             </LinearLayout>
 
@@ -533,7 +533,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="Heal" />
 
                             <TextView
                                 android:id="@+id/textView"
@@ -541,7 +541,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="Dust Devil" />
 
                             <TextView
                                 android:id="@+id/textView2"
@@ -549,7 +549,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="Tsunami" />
 
                             <TextView
                                 android:id="@+id/textView4"
@@ -557,7 +557,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="Earthquake" />
 
                         </LinearLayout>
 
@@ -600,7 +600,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="Awaken" />
 
                             <TextView
                                 android:id="@+id/textView"
@@ -608,7 +608,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="Foresight" />
 
                             <TextView
                                 android:id="@+id/textView2"
@@ -616,7 +616,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="True Resurrection" />
 
                             <TextView
                                 android:id="@+id/textView3"
@@ -624,7 +624,7 @@
                                 android:layout_height="30dp"
                                 android:background="@color/disable"
                                 android:gravity="center|left"
-                                android:text="Something lol" />
+                                android:text="Polymorph" />
 
                         </LinearLayout>
 
