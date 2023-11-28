@@ -15,13 +15,23 @@ public class Character {
     private List<Wepons> weapons;
     private List<Spells> spells;
 
-    public Character(String name, String race, String charClass, List<Statistics> statistics, List<Wepons> weapons, List<Spells> spells) {
+    public Character(String name, String race, String charClass, List<Statistics> statistics) {
         this.name = name;
         this.race = race;
         this.charClass = charClass;
         this.statistics = statistics;
         this.weapons = weapons;
         this.spells = spells;
+        callArray();
+    }
+
+    public void callArray(){
+        for(int i = 0; i<3; i++){
+            weapons.add(new Wepons("NEW WEAPON",0,"NILL"));
+        }
+        for(int i = 0; i<3; i++){
+            spells.add(new Spells("NEW SPELL","EMPTY",0));
+        }
     }
 
     public String getName() {
