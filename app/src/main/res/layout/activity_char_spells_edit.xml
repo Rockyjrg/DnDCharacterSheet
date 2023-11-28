@@ -3,4 +3,509 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/normal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|left"
+                        android:background="@color/normal"
+                        android:backgroundTint="@color/normal"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/LvlTxt1"
+                            android:layout_width="37dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:text="LVL" />
+
+                        <EditText
+                            android:id="@+id/spellName1"
+                            android:layout_width="116dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:text="Spell Name" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/spellDescriptor1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/normal"
+                        android:ems="10"
+                        android:gravity="center|top|left"
+                        android:inputType="text"
+                        android:text="Spell Discription" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:background="@color/normal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|left"
+                        android:background="@color/normal"
+                        android:backgroundTint="@color/normal"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/LvlTxt2"
+                            android:layout_width="37dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:text="LVL" />
+
+                        <EditText
+                            android:id="@+id/spellName2"
+                            android:layout_width="116dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:text="Spell Name" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/spellDescriptor2"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/normal"
+                        android:ems="10"
+                        android:gravity="top|left"
+                        android:inputType="text"
+                        android:text="Spell Descritption" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/normal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|left"
+                        android:background="@color/normal"
+                        android:backgroundTint="@color/normal"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/LvlTxt3"
+                            android:layout_width="37dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:text="LVL" />
+
+                        <EditText
+                            android:id="@+id/spellName3"
+                            android:layout_width="116dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:text="Spell Name" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/spellDescriptor3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/normal"
+                        android:ems="10"
+                        android:gravity="center|top|left"
+                        android:inputType="text"
+                        android:text="Spell Discription" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:background="@color/normal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|left"
+                        android:background="@color/normal"
+                        android:backgroundTint="@color/normal"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/LvlTxt4"
+                            android:layout_width="37dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:text="LVL" />
+
+                        <EditText
+                            android:id="@+id/spellName4"
+                            android:layout_width="116dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:text="Spell Name" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/spellDescriptor4"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/normal"
+                        android:ems="10"
+                        android:gravity="top|left"
+                        android:inputType="text"
+                        android:text="Spell Descritption" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/normal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|left"
+                        android:background="@color/normal"
+                        android:backgroundTint="@color/normal"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/LvlTxt5"
+                            android:layout_width="37dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:text="LVL" />
+
+                        <EditText
+                            android:id="@+id/spellName5"
+                            android:layout_width="116dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:text="Spell Name" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/spellDescriptor5"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/normal"
+                        android:ems="10"
+                        android:gravity="center|top|left"
+                        android:inputType="text"
+                        android:text="Spell Discription" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:background="@color/normal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|left"
+                        android:background="@color/normal"
+                        android:backgroundTint="@color/normal"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/LvlTxt6"
+                            android:layout_width="37dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:text="LVL" />
+
+                        <EditText
+                            android:id="@+id/spellName6"
+                            android:layout_width="116dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:text="Spell Name" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/spellDescriptor6"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/normal"
+                        android:ems="10"
+                        android:gravity="top|left"
+                        android:inputType="text"
+                        android:text="Spell Descritption" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/normal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|left"
+                        android:background="@color/normal"
+                        android:backgroundTint="@color/normal"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/LvlTxt7"
+                            android:layout_width="37dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:text="LVL" />
+
+                        <EditText
+                            android:id="@+id/spellName7"
+                            android:layout_width="116dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:text="Spell Name" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/spellDescriptor7"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/normal"
+                        android:ems="10"
+                        android:gravity="center|top|left"
+                        android:inputType="text"
+                        android:text="Spell Discription" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:background="@color/normal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|left"
+                        android:background="@color/normal"
+                        android:backgroundTint="@color/normal"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/LvlTxt8"
+                            android:layout_width="37dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:text="LVL" />
+
+                        <EditText
+                            android:id="@+id/spellName8"
+                            android:layout_width="116dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/disable"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:text="Spell Name" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/spellDescriptor8"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/normal"
+                        android:ems="10"
+                        android:gravity="top|left"
+                        android:inputType="text"
+                        android:text="Spell Descritption" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
