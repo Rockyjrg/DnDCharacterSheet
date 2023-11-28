@@ -40,7 +40,7 @@ public class MainController implements View.OnClickListener {
         } else if (id == R.id.deleteClass1 || id == R.id.deleteClass2 || id == R.id.deleteClass3 || id == R.id.deleteClass4) {
             showDeleteConfirmation(id);
         } else if(id == R.id.credits) {
-            Toast.makeText(activity, "Israel, Brandon, Jaime, Gael, Rudy", Toast.LENGTH_SHORT).show();
+            Toast.makeText(activity, "Israel Chavez, Brandon Ariel, Jaime Gallegos, Gael Sifuentes, Rene Guardiola", Toast.LENGTH_SHORT).show();
         }
 
 
