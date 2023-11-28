@@ -6,27 +6,22 @@ package edu.utsa.cs3443.dndcharactersheet.Model;
 
 import java.util.List;
 
-import edu.utsa.cs3443.dndcharactersheet.Model.Attributes;
-
-import edu.utsa.cs3443.dndcharactersheet.Model.Statistics;
-
 public class Character {
 
     private String name;
     private String race;
-
     private String charClass;
     private List<Statistics> statistics;
-    private List<Attributes> attributes;
+    private List<Wepons> weapons;
+    private List<Spells> spells;
 
-
-    public Character(String name, String race, String charClass, List<Statistics> statistics, List<Attributes> attributes) {
+    public Character(String name, String race, String charClass, List<Statistics> statistics, List<Wepons> weapons, List<Spells> spells) {
         this.name = name;
         this.race = race;
         this.charClass = charClass;
         this.statistics = statistics;
-        this.attributes = attributes;
-
+        this.weapons = weapons;
+        this.spells = spells;
     }
 
     public String getName() {
@@ -61,11 +56,19 @@ public class Character {
         this.statistics = statistics;
     }
 
-    public List<Attributes> getAttributes() {
-        return attributes;
+    public List<Wepons> getWeapons() {
+        return weapons;
     }
 
-    public void setAttributes(List<Attributes> attributes) {
-        this.attributes = attributes;
+    public void setWeapons(List<Wepons> weapons) {
+        this.weapons = weapons;
+    }
+
+    public List<Spells> getSpells() {
+        return spells;
+    }
+
+    public void setSpells(List<Spells> spells) {
+        this.spells = spells;
     }
 }

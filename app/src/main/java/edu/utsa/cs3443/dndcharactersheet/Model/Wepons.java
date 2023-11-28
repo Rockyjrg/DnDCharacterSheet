@@ -8,10 +8,10 @@ public class Wepons {
     public Wepons(String name, int attackBonus, String damageType) {
         this.name = name;
         this.attackBonus = attackBonus;
-        DamageType = damageType;
+        this.DamageType = damageType;
     }
 
-    public String getName()
+    public String getName() {
         return name;
     }
 

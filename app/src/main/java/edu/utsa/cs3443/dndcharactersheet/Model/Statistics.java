@@ -7,7 +7,7 @@ package edu.utsa.cs3443.dndcharactersheet.Model;
 public class Statistics {
     //Initializes the Strength, Constitution, and Dexterity statistics ;
     public int str, con, dex, chr, itl, wis;
-    public int[] bonus = new int[23];
+    public int[] bonus = new int[21];
 
     //------------------------------------------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ public class Statistics {
 
 
     private void bonusDefaulter(){
-        for(int i = 0; i<23;i++){
+        for(int i = 0; i<21;i++){
             bonus[i] = 0;
         }
     }
