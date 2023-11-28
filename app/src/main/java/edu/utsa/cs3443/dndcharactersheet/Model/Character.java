@@ -4,6 +4,8 @@ package edu.utsa.cs3443.dndcharactersheet.Model;
  * @author Gael Sifuentes  11/14
  */
 
+import java.util.List;
+
 import edu.utsa.cs3443.dndcharactersheet.Model.Attributes;
 
 import edu.utsa.cs3443.dndcharactersheet.Model.Statistics;
@@ -12,26 +14,20 @@ public class Character {
 
     private String name;
     private String race;
-    private String characterClass;
-    private String statistics;
-    private String attributes;
-//    public Statistics stats;
-//    public Attributes atts;
 
-    public Character(String name, String race, String characterClass, String statistics, String attributes) {
+    private String charClass;
+    private List<Statistics> statistics;
+    private List<Attributes> attributes;
+
+
+    public Character(String name, String race, String charClass, List<Statistics> statistics, List<Attributes> attributes) {
         this.name = name;
         this.race = race;
-        this.characterClass = characterClass;
+        this.charClass = charClass;
         this.statistics = statistics;
         this.attributes = attributes;
+
     }
-
-//    @Override
-//    public String toString() {
-//        return atts.toString() + stats.toString();
-//    }
-//
-
 
     public String getName() {
         return name;
@@ -49,27 +45,27 @@ public class Character {
         this.race = race;
     }
 
-    public String getCharacterClass() {
-        return characterClass;
+    public String getCharClass() {
+        return charClass;
     }
 
-    public void setCharacterClass(String characterClass) {
-        this.characterClass = characterClass;
+    public void setCharClass(String charClass) {
+        this.charClass = charClass;
     }
 
-    public String getStatistics() {
+    public List<Statistics> getStatistics() {
         return statistics;
     }
 
-    public void setStatistics(String statistics) {
+    public void setStatistics(List<Statistics> statistics) {
         this.statistics = statistics;
     }
 
-    public String getAttributes() {
+    public List<Attributes> getAttributes() {
         return attributes;
     }
 
-    public void setAttributes(String attributes) {
+    public void setAttributes(List<Attributes> attributes) {
         this.attributes = attributes;
     }
 }
