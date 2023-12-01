@@ -3,192 +3,303 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/normal">
 
-    <EditText
-        android:id="@+id/bonus17"
-        android:layout_width="100dp"
-        android:layout_height="25dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="176dp"
-        android:layout_weight="1"
-        android:background="@color/normal"
-        android:ems="10"
-        android:gravity="center|top|left"
-        android:inputType="text"
-        android:text="5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/weapon17"
-        android:layout_width="100dp"
-        android:layout_height="25dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="176dp"
-        android:layout_weight="1"
-        android:background="@color/normal"
-        android:ems="10"
-        android:gravity="center|top|left"
-        android:inputType="text"
-        android:text="Wepon1"
-        app:layout_constraintEnd_toStartOf="@+id/bonus15"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/type17"
-        android:layout_width="100dp"
-        android:layout_height="25dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="176dp"
-        android:layout_weight="1"
-        android:background="@color/normal"
-        android:ems="10"
-        android:gravity="center|top|left"
-        android:inputType="text"
-        android:text="Bludgeoning"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toEndOf="@+id/bonus15"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FAF4F4"
+                android:gravity="center"
+                android:text="That one Character Weapons, Attacks & Equipment Sheet" />
 
-    <EditText
-        android:id="@+id/bonus16"
-        android:layout_width="100dp"
-        android:layout_height="25dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:layout_weight="1"
-        android:background="@color/normal"
-        android:ems="10"
-        android:gravity="center|top|left"
-        android:inputType="text"
-        android:text="5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="382dp"
+                android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/weapon16"
-        android:layout_width="100dp"
-        android:layout_height="25dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:layout_weight="1"
-        android:background="@color/normal"
-        android:ems="10"
-        android:gravity="center|top|left"
-        android:inputType="text"
-        android:text="Wepon1"
-        app:layout_constraintEnd_toStartOf="@+id/bonus15"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/type16"
-        android:layout_width="100dp"
-        android:layout_height="25dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:layout_weight="1"
-        android:background="@color/normal"
-        android:ems="10"
-        android:gravity="center|top|left"
-        android:inputType="text"
-        android:text="Bludgeoning"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toEndOf="@+id/bonus15"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+                    <TextView
+                        android:layout_width="81dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Name"
+                        android:textSize="10dp" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:background="@color/disable"
-        android:text="Name: "
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Bonus"
+                        android:textSize="10dp" />
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:background="@color/disable"
-        android:text="ATK Bonus:"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Damage/Type"
+                        android:textSize="10dp" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:background="@color/disable"
-        android:text="Damage/Type:"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.949"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+                </LinearLayout>
 
-    <EditText
-        android:id="@+id/bonus15"
-        android:layout_width="100dp"
-        android:layout_height="25dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="28dp"
-        android:layout_weight="1"
-        android:background="@color/normal"
-        android:ems="10"
-        android:gravity="center|top|left"
-        android:inputType="text"
-        android:text="5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
 
-    <EditText
-        android:id="@+id/type15"
-        android:layout_width="100dp"
-        android:layout_height="25dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="28dp"
-        android:layout_weight="1"
-        android:background="@color/normal"
-        android:ems="10"
-        android:gravity="center|top|left"
-        android:inputType="text"
-        android:text="Bludgeoning"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/bonus15"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/weapon15"
-        android:layout_width="100dp"
-        android:layout_height="25dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="28dp"
-        android:layout_weight="1"
-        android:background="@color/normal"
-        android:ems="10"
-        android:gravity="center|top|left"
-        android:inputType="text"
-        android:text="Wepon1"
-        app:layout_constraintEnd_toStartOf="@+id/bonus15"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="#FAFAFA"
+                        android:ems="10"
+                        android:hint="Name"
+                        android:inputType="text" />
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="#FAFAFA"
+                        android:ems="10"
+                        android:hint="Bonus"
+                        android:inputType="number|numberSigned" />
+
+                    <EditText
+                        android:layout_width="81dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="#FAFAFA"
+                        android:ems="10"
+                        android:hint="Damage/Type"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="#FAFAFA"
+                        android:ems="10"
+                        android:hint="Name"
+                        android:inputType="text" />
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="#FAFAFA"
+                        android:ems="10"
+                        android:hint="Bonus"
+                        android:inputType="number|numberSigned" />
+
+                    <EditText
+                        android:layout_width="81dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="#FAFAFA"
+                        android:ems="10"
+                        android:hint="Damage/Type"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="#FAFAFA"
+                        android:ems="10"
+                        android:hint="Name"
+                        android:inputType="text" />
+
+                    <EditText
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="#FAFAFA"
+                        android:ems="10"
+                        android:hint="Bonus"
+                        android:inputType="number|numberSigned" />
+
+                    <EditText
+                        android:layout_width="81dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="#FAFAFA"
+                        android:ems="10"
+                        android:hint="Damage/Type"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <EditText
+                    android:id="@+id/attacksBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="248dp"
+                    android:background="#FFFFFF"
+                    android:gravity="top|left"
+                    android:hint="Tap here to enter details" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="331dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="103dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="21dp" />
+
+                        <EditText
+                            android:id="@+id/cpBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginRight="20dp"
+                            android:background="#FFFCFC"
+                            android:gravity="center"
+                            android:hint="Enter CP"
+                            android:inputType="number" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp" />
+
+                        <EditText
+                            android:id="@+id/spBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginRight="20dp"
+                            android:background="#FFFCFC"
+                            android:gravity="center"
+                            android:hint="Enter SP"
+                            android:inputType="number" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp" />
+
+                        <EditText
+                            android:id="@+id/gpBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginRight="20dp"
+                            android:background="#FFFCFC"
+                            android:gravity="center"
+                            android:hint="Enter GP"
+                            android:inputType="number" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp" />
+
+                        <EditText
+                            android:id="@+id/ppBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginRight="20dp"
+                            android:background="#FFFCFC"
+                            android:gravity="center"
+                            android:hint="Enter PP"
+                            android:inputType="number" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="38dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp" />
+
+                        <EditText
+                            android:id="@+id/equipmentBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="270dp"
+                            android:background="#F4EFEF"
+                            android:backgroundTint="#F4EFEF"
+                            android:gravity="top|left"
+                            android:hint="Tap here to enter detials" />
+
+                        <Button
+                            android:id="@+id/saveButtonWeapons"
+                            android:layout_width="203dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left"
+                            android:backgroundTint="#00C853"
+                            android:text="Save" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

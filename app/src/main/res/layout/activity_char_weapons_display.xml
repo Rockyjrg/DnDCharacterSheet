@@ -69,7 +69,7 @@
                     <TextView
                         android:id="@+id/name1"
                         android:layout_width="81dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:backgroundTint="#FBFBFB"
@@ -80,7 +80,7 @@
                     <TextView
                         android:id="@+id/bonus1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:backgroundTint="#FBFBFB"
@@ -91,7 +91,7 @@
                     <TextView
                         android:id="@+id/damage1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:backgroundTint="#FBFBFB"
@@ -113,7 +113,7 @@
                     <TextView
                         android:id="@+id/name2"
                         android:layout_width="81dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:backgroundTint="#FBFBFB"
@@ -124,7 +124,7 @@
                     <TextView
                         android:id="@+id/bonus2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:backgroundTint="#FBFBFB"
@@ -135,7 +135,7 @@
                     <TextView
                         android:id="@+id/damage2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:backgroundTint="#FBFBFB"
@@ -157,7 +157,7 @@
                     <TextView
                         android:id="@+id/name3"
                         android:layout_width="81dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
                         android:background="#FFFAFA"
                         android:backgroundTint="#FBFBFB"
@@ -168,7 +168,7 @@
                     <TextView
                         android:id="@+id/bonus3"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
                         android:background="#FFFAFA"
                         android:backgroundTint="#FBFBFB"
@@ -179,7 +179,7 @@
                     <TextView
                         android:id="@+id/damage3"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
                         android:background="#FFFAFA"
                         android:backgroundTint="#FBFBFB"
@@ -191,12 +191,12 @@
 
                 <Space
                     android:layout_width="match_parent"
-                    android:layout_height="30dp" />
+                    android:layout_height="10dp" />
 
                 <TextView
-                    android:id="@+id/textView11"
+                    android:id="@+id/attacksBox"
                     android:layout_width="match_parent"
-                    android:layout_height="273dp"
+                    android:layout_height="248dp"
                     android:background="#FFFFFF"
                     android:text="This should be the stats they wrote lol" />
 
@@ -222,6 +222,7 @@
                             android:layout_height="21dp" />
 
                         <TextView
+                            android:id="@+id/cpBox"
                             android:layout_width="match_parent"
                             android:layout_height="52dp"
                             android:layout_marginRight="20dp"
@@ -234,39 +235,39 @@
                             android:layout_height="20dp" />
 
                         <TextView
-                            android:id="@+id/textView16"
+                            android:id="@+id/spBox"
                             android:layout_width="match_parent"
                             android:layout_height="52dp"
                             android:layout_marginRight="20dp"
                             android:background="#FFFCFC"
                             android:gravity="center"
-                            android:text="CP: int" />
+                            android:text="SP: int" />
 
                         <Space
                             android:layout_width="match_parent"
                             android:layout_height="20dp" />
 
                         <TextView
-                            android:id="@+id/textView17"
+                            android:id="@+id/gpBox"
                             android:layout_width="match_parent"
                             android:layout_height="52dp"
                             android:layout_marginRight="20dp"
                             android:background="#FFFCFC"
                             android:gravity="center"
-                            android:text="CP: int" />
+                            android:text="GP: int" />
 
                         <Space
                             android:layout_width="match_parent"
                             android:layout_height="20dp" />
 
                         <TextView
-                            android:id="@+id/textView18"
+                            android:id="@+id/ppBox"
                             android:layout_width="match_parent"
                             android:layout_height="52dp"
                             android:layout_marginRight="20dp"
                             android:background="#FFFCFC"
                             android:gravity="center"
-                            android:text="CP: int" />
+                            android:text="PP: int" />
 
                         <Space
                             android:layout_width="match_parent"
@@ -283,7 +284,7 @@
                             android:layout_height="20dp" />
 
                         <TextView
-                            android:id="@+id/textView21"
+                            android:id="@+id/equipmentBox"
                             android:layout_width="match_parent"
                             android:layout_height="270dp"
                             android:background="#F4EFEF"
