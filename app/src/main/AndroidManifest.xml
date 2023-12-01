@@ -18,19 +18,19 @@
         android:theme="@style/Theme.DnDCharacterSheet"
         tools:targetApi="31">
         <activity
-            android:name=".CharDisplayActivity"
+            android:name=".View.CharDisplayActivity"
             android:exported="true"/>
         <activity
-            android:name=".CharSpellsDisplayActivity"
+            android:name=".View.CharSpellsDisplayActivity"
             android:exported="true"/>
         <activity
-            android:name=".CharWeaponsDisplayActivity"
+            android:name=".View.CharWeaponsDisplayActivity"
             android:exported="true"/>
         <activity
-            android:name=".StatsEditActivity"
+            android:name=".View.StatsEditActivity"
             android:exported="true"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".View.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

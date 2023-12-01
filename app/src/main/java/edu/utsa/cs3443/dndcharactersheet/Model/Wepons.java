@@ -2,17 +2,33 @@ package edu.utsa.cs3443.dndcharactersheet.Model;
 
 import java.io.Serializable;
 
+/**
+ * @author Gael Sifuentes  11/05
+ * UTSA CS 3443 - Team Project
+ * Fall 2023
+ */
 public class Wepons implements Serializable {
-    String name;
-    int attackBonus;
-    String DamageType;
+    /**
+     * Yes I'm aware I misspelled weapon, it was an accident
+     */
 
+    //weapon name
+    String name;
+
+    //Bonus to weapon damages
+    int attackBonus;
+
+    //Types of damage a weapon gives can be tantamount for strategy
+    String damageType;
+
+    //Weapon class getters and setters
     public Wepons(String name, int attackBonus, String damageType) {
         this.name = name;
         this.attackBonus = attackBonus;
-        this.DamageType = damageType;
+        this.damageType = damageType;
     }
 
+    //Weapon name getters and setters
     public String getName() {
         return name;
     }
@@ -21,6 +37,7 @@ public class Wepons implements Serializable {
         this.name = name;
     }
 
+    //Attack bonus getters and setters
     public int getAttackBonus() {
         return attackBonus;
     }
@@ -29,11 +46,22 @@ public class Wepons implements Serializable {
         this.attackBonus = attackBonus;
     }
 
+    //Damage type Getters and Setters
     public String getDamageType() {
-        return DamageType;
+        return damageType;
     }
 
     public void setDamageType(String damageType) {
-        DamageType = damageType;
+        damageType = damageType;
+    }
+
+    //Class to string
+    @Override
+    public String toString() {
+        return "Wepons{" +
+                "name='" + name + '\'' +
+                ", attackBonus=" + attackBonus +
+                ", damageType='" + damageType + '\'' +
+                '}';
     }
 }
