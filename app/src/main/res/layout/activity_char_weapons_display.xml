@@ -29,17 +29,190 @@
                 android:layout_height="639dp"
                 android:orientation="horizontal">
 
-                <TableLayout
+                <LinearLayout
                     android:layout_width="205dp"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-                </TableLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-                <TableLayout
+                        <TextView
+                            android:layout_width="81dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Name"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Bonus"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Damage/Type"
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/name1"
+                            android:layout_width="81dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#FFFFFF"
+                            android:backgroundTint="#FBFBFB"
+                            android:outlineProvider="bounds"
+                            android:text="Name"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/bonus1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#FFFFFF"
+                            android:backgroundTint="#FBFBFB"
+                            android:outlineProvider="bounds"
+                            android:text="Bonus"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/damage1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#FFFFFF"
+                            android:backgroundTint="#FBFBFB"
+                            android:outlineProvider="bounds"
+                            android:text="Damage/Type"
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/name2"
+                            android:layout_width="81dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#FFFFFF"
+                            android:backgroundTint="#FBFBFB"
+                            android:outlineProvider="bounds"
+                            android:text="Name"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/bonus2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#FFFFFF"
+                            android:backgroundTint="#FBFBFB"
+                            android:outlineProvider="bounds"
+                            android:text="Bonus"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/damage2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#FFFFFF"
+                            android:backgroundTint="#FBFBFB"
+                            android:outlineProvider="bounds"
+                            android:text="Damage/Type"
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/name3"
+                            android:layout_width="81dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#FFFAFA"
+                            android:backgroundTint="#FBFBFB"
+                            android:outlineProvider="bounds"
+                            android:text="Name"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/bonus3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#FFFAFA"
+                            android:backgroundTint="#FBFBFB"
+                            android:outlineProvider="bounds"
+                            android:text="Bonus"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/damage3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#FFFAFA"
+                            android:backgroundTint="#FBFBFB"
+                            android:outlineProvider="bounds"
+                            android:text="Damage/Type"
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+                    <EditText
+                        android:id="@+id/editTextText"
+                        android:layout_width="match_parent"
+                        android:layout_height="535dp"
+                        android:ems="10"
+                        android:gravity="top|left"
+                        android:inputType="text"
+                        android:text="Name" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="205dp"
-                    android:layout_height="match_parent">
-
-                </TableLayout>
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
