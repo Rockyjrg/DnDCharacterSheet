@@ -62,7 +62,7 @@
                             android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@color/disable"
-                            android:ems="10"
+                            android:ems="30"
                             android:gravity="center"
                             android:inputType="text"
                             android:text="Spell Name" />

@@ -1,10 +1,12 @@
 package edu.utsa.cs3443.dndcharactersheet.Model;
 
+import java.io.Serializable;
+
 /**
  * @author Gael Sifuentes  11/14
  */
 
-public class Statistics {
+public class Statistics implements Serializable {
     //Initializes the Strength, Constitution, and Dexterity statistics ;
     public int str, con, dex, chr, itl, wis;
     public int[] bonus = new int[21];

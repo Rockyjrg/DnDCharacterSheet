@@ -4,24 +4,26 @@ package edu.utsa.cs3443.dndcharactersheet.Model;
  * @author Gael Sifuentes  11/14
  */
 
+import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
-public class Character {
+public class Character implements Serializable {
 
     private String name;
     private String race;
     private String charClass;
-    private List<Statistics> statistics;
-    private List<Wepons> weapons;
-    private List<Spells> spells;
+    private Statistics statistics;
+    private ArrayList<Wepons> weapons;
+    private ArrayList<Spells> spells;
 
-    public Character(String name, String race, String charClass, List<Statistics> statistics) {
+    public Character(String name, String race, String charClass, Statistics statistics) {
         this.name = name;
         this.race = race;
         this.charClass = charClass;
         this.statistics = statistics;
-        this.weapons = weapons;
-        this.spells = spells;
+        this.weapons = new ArrayList<Wepons>();
+        this.spells = new ArrayList<Spells>();
         callArray();
     }
 
@@ -58,27 +60,27 @@ public class Character {
         this.charClass = charClass;
     }
 
-    public List<Statistics> getStatistics() {
+  /*  public List<Statistics> getStatistics() {
         return statistics;
     }
 
     public void setStatistics(List<Statistics> statistics) {
         this.statistics = statistics;
     }
-
-    public List<Wepons> getWeapons() {
+*/
+    public ArrayList<Wepons> getWeapons() {
         return weapons;
     }
 
-    public void setWeapons(List<Wepons> weapons) {
+    public void setWeapons(ArrayList<Wepons> weapons) {
         this.weapons = weapons;
     }
 
-    public List<Spells> getSpells() {
+    public ArrayList<Spells> getSpells() {
         return spells;
     }
 
-    public void setSpells(List<Spells> spells) {
+    public void setSpells(ArrayList<Spells> spells) {
         this.spells = spells;
     }
 }

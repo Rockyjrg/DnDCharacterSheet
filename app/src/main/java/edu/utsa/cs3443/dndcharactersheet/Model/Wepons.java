@@ -1,6 +1,8 @@
 package edu.utsa.cs3443.dndcharactersheet.Model;
 
-public class Wepons {
+import java.io.Serializable;
+
+public class Wepons implements Serializable {
     String name;
     int attackBonus;
     String DamageType;

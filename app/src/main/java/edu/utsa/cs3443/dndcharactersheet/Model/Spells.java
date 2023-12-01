@@ -1,6 +1,8 @@
 package edu.utsa.cs3443.dndcharactersheet.Model;
 
-public class Spells {
+import java.io.Serializable;
+
+public class Spells implements Serializable {
     String spellName, spellDescrpition;
     int level;
 
